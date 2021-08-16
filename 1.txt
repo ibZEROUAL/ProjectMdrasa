@@ -1,0 +1,47 @@
+bonjour,
+j'adresse mes remerciements à mes professeurs qu'ont m'aidés bouceaup à réaliser ce travail et spicialement mon encadrant Hicham FALL.
+
+je tiens aussi à vous remercier pour l’intérêt que vous avez bien voulu porter à mon travail en acceptant de faire partie de ce jury.
+C’est un honneur pour moi d’avoir l’occasion de présenter et discuter mon pfc avec vous aujourd'hui.
+
+
+*plan :
+Bon, on commence.
+Aujourd’hui, je vais parler de la réalisation et le Développement d’une application web de suivi des diabétes , dans cette présentation je vais suivre 
+le plan suivant
+le contexte general du projet,besoins,conception,mise en oeuvre et la conclusion general.
+
+*context general : 
+débutant tout d'abord par le contexte general qui sert à présenter une introduction à propos de ce projet , problématique ,travail demander ou bien
+les objectifs puis la conduite du projet qui contient la méthodologie et la planification.
+
+
+*introduction:
+ce Projet est une application web de suivi des diabètes qui donne la possibilité à un patient de suivre son état d’une manière facile  et continue.
+
+*problématique :
+Pour mieux comprendre la problématique, mettez-vous devant la situation suivante, si un patient souhaite l'avis d'un médecin ou s'il ne Se sent pas bien ou s'il veut de suivre son progrès pour savoir s'il va bien ou pas, dans le cas normal,
+ Il doit aller à l'hôpital et voir le médecin pour lui donner des conseils, Mais avec un grand nombre des patients, ce sera très compliqué et une perte de temps et surtout avec les nouvelles règles de  Distanciation sociale.
+
+
+*objectifs : 
+afin de repondre à cette problématique l'application  permettra la gestion interne et administrative , l'évolutivité  , il va etre un outil plus facile et convivial  qui garantira la rapidité de traitement tout ca va assurer la fiabilité des données.
+
+
+*conduite du projet : 
+la conduite de ce projet se divise en deux parties , la premiere partie  s'interesse à la méthodologie et les étapes que j'ai suivi pour realiser l'application ,j'ai commancé par collette des informations,  aprés ça j'ai passé ala partie de ditermination des besions avec les solutions possibles, puis j'ai démarer la partie de conception ou j'ai réalisé les différents diagrammes  et enfin la partie de pratique et de réalisation des taches. 
+
+concernant la deuxieme partie j'ai présenté tout les taches que j'ai fait et la durée  au sein de chaque tache , pour mieux comprendre vous pouvez voir le diagramme de gantt qui va expliquer l'enchainement des ces différents taches.
+
+* besoins: 
+on passe maintenant au deuxieme point, les besoins,   je commence par les besoin fonctionnel.
+tout les patients doivent s'inscrire,
+pour accéder à  l'application il faut s'authentifier , si l'authentification est fait par patient la page d'acueil va offrir des fontionalitées comme, suivi d'avancement, evaluer un mesure , consulter un médecin, autrement si  l'authentification est 
+fait par l'administrateur la page d'accueil va offrir la possiblité de supprimer des medecins , supprimer des patient et ajouter des medecins.
+
+
+
+
+
+
+

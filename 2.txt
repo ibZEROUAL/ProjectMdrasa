@@ -1,0 +1,27 @@
+*conduite du projet : 
+la conduite de ce projet se divise en deux parties , la premiere partie  s'interesse à la méthodologie et les étapes que j'ai suivi pour realiser l'application ,j'ai commancé par collette des informations,  
+aprés ça, je suis passé à la partie de ditermination des besions avec les solutions possibles, puis j'ai démarer la partie de conception ou j'ai réalisé les différents diagrammes  et enfin la partie de pratique et de réalisation des taches. 
+
+concernant la deuxieme partie j'ai présenté tout les taches que j'ai fait et la durée  au sein de chaque tache , pour mieux comprendre vous pouvez voir le diagramme de gantt qui va expliquer l'enchainement des ces différents taches.
+
+* besoins: 
+on passe maintenant au deuxieme point, les besoins,   je commence par les besoin fonctionnel :
+
+en premier les patients doivent faire l'inscription  pour avoir le droit de faire l'authentification .
+pour accéder à  l'application il faut s'authentifier , si l'authentification est fait par patient la page d'acueil va offrir des fontionalitées comme, suivi d'avancement, evaluer un mesure , consulter un médecin, autrement si  l'authentification est 
+fait par l'administrateur la page d'accueil va offrir la possiblité de supprimer des medecins , supprimer des patient et ajouter des medecins.
+
+pour les besoins non fonctionnel : on a,
+ 
+La maintenabilité :
+Le code doit être compréhensible par simple lecture, notamment en respectant les règles de gestion et les normes de développement.
+
+Exploitabilité :
+Les impacts en termes de performances doivent être pris en compte lors de développement, ainsi que la consommation des ressources (CPU, mémoire, etc.) qui doit être minimisée.       
+Sécurité :
+Chaque utilisateur, pour accéder à l’application, est obligé de s’authentifier par un nom d’utilisateur et un mot de passe. Il ne pourra accéder qu’aux pages qui lui sont permises par son profil ou les droits d’accès qui lui sont affectés par l’administrateur.
+
+passons maintenat à la 3éme partie, la conception.
+dans cette partie je vous présenter les différentes diagrammes qu'ont m'aidés à construire l'architeture de l'application,
+
+voila le premiere diagramme, diagramme de cas d'utilisation qui présente les relations entre les acteurs et les cas d'utilisation et aussi les relations entre les différentes cas d'utilisations. 

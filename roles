@@ -1,0 +1,99 @@
+
+
+//admin roles : 
+
++ admin enregistre patient : admin  s'authentifier dans auth.jsp(form d'auth)==> servlet(authContoller) si data correct : sendRedirect to acceuil & si oui ajoute patient class(authDaoPt)  sinon erreur refaire auth ==>  fin. .......
+
+
++ admin enregistre medecin  admin s'authentifier(form d'auth)==> servlet(authContoller) si correct : sendRedirect to acceuil sinon erreur re faire auth ==> si oui ajoute medecin (authDao) fin. ........
+
++ admin supprime patient   admin s'authentifier ==> supprimer patient .....
++ admin supprime medecin   admin s'authentifier ==> supprimer medecin .....
+
+//patient roles : 
+
++ patient register ==> form ==> servlet{registerController} ==> {registerDao} verfier l'existance d'email (si oui : register dans la base
+                                                                  sinon erreur(send redirect to jsp file ) modifier email ) fin.         ==>DONE 
+
++ patient s'authentifier ==>DONE  
+
+
++ patient mesure test form(Mesuretest.jsp)==>fields(calendar-date,heure,repas,mesure de sucre,medicament,activité dans le jour)==> mesureController(servlet)==>insert la mesure (mesureDao) ==>DONE
+
+
++ patient envoyer notification notification (si possible dans l'application sinon par email) vers medecin    .... DONE
++ patient recevoir notification de medecin (si possible dans l'application sinon par email)                 .....DONE
+
+//medecin roles : 
+
++ medecin register ==> form ==> servlet{registerController} ==> {registerDao} verfier l'existance d'email (si oui : register dans la base
+                                                                  sinon erreur(send redirect to jsp file ) modifier email ) fin. ==>DONE
++ medecin s'authentifier ==>DONE
++ medecin voir mesure de test .....DONE
++ medecin apres la consultation du tests il peut conseiller le patient de faire quelque chose....DONE
+
+
++chart 
+
+
+
+tester==> lise de medecins(insert medecin manual ==> afficher medecins dans la page medecins.jsp==>) avec msg de la resultat du test pout patinet ==> selectioner le medecin pour avoir le consiel ==> notif......DONE
+
+
+enregistrer notif dans la base(identifier si par patient ou par medecin) DONE
++ medecin recevoir (si possible dans l'application sinon par email)...... /////DONE
+
+
+
+twaxa design ....................................................
+
+
+select IDpt from patient where Emailpt=sess
+select Resulttest,Datetest from mesuretest where IDpt=pt.getIDpt()
+
+
+	try {
+			ArrayList<Mesuretest> list = (ArrayList<Mesuretest>) chart.testsChart(sess);
+			String data ="" + list.get(0).getResulttest() ; 
+			String lab = "" + list.get(0).getDatetest(); 
+            
+			
+		for (int i = 1; i < list.size(); i++) {	
+
+				data = data +","+list.get(i).getResulttest();
+				lab = lab +","+list.get(i).getDatetest();
+				
+				
+				
+			}data = data + ""; lab = lab + "";
+			out.print(gson.toJson("{ data : ["+data+"],"+"lab : ["+lab+"]}"));
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block {labels : [...] , data,[...]}
+		e.printStackTrace();
+		}
+		
+
+docteurnum1@gmail.com
+
+
+
+
+
+
+
+//String nompt = "holaa";
+	//	String prenompt = request.getParameter("lname");
+	//	int age  = Integer.parseInt(request.getParameter("age"));
+	//	String emailpt = request.getParameter("email");
+	//	String passpt = request.getParameter("pass");
+		
+	
+		//Patient pt1 = new Patient();
+		//pt1.setNompt(nompt);
+		//pt1.setPrenompt(prenompt);
+		//pt1.setAgept(age);
+	//	pt1.setEmailpt(emailpt);
+	//	pt1.setPasspt(passpt);
+		
+	//	System.out.println(pt1.getNompt());

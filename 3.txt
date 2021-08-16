@@ -1,0 +1,28 @@
+aussi on a le diagramme de séquence qui présente  les sénarios et les interactions entre les acteurs et la base de données c'est le cas d'evaluation de mesure aussi le cas d'inscription des pastients.
+
+passant maitenant à la plus important de la modélisation orienté objet ,le diagramme de classe , ce diagramme permet de fournir une representation abstraite des objets du system qui vont interagir ensemble pour realiser les cas d'utilisation , aussi a partir de ce diagramme on crée la base de données.
+
+passant maintenant au 4eme point la mise en oeuvre.
+
+après avoir achevé l’etape d’analyse et conception de l’application, on va entamer dans la  partie de  réalistation et implémentation dans laquelle on s’assure que le systéme est prét pour être exploité par les utilisateurs finaux,alors cette partie  est consacré pour détailler les languages de programmation utiliser et montrer des différents options de notre application.
+
+tout d'abord je vous présente l'environnement de développement utilisé : 
+
+j'ai utiliser ubuntu comme un system d'exploitation , starUml comme un outil de modélisation ,Apache Tomcat comme un conteneur web , MySQL comme une SGBD et Ide Eclipse .
+
+pour  front end j'ai utiliser la HTML5 aussi bootstrap qui est un framework css et qui donne ....
+pour  back end j'ai choisi d'utiliser le platforme java entreprise edition qui un platforme ....
+concernant le stockage des données j'ai utilisé la base de données MySQL car ....  
+
+ front end et back end sont lié avec le protocol HTTP c'est grace à la conteneur web Apache Tomcat.
+  pour communication entre la back end et la base de données j'ai utiliser le connecteur JDBC.
+enfin, et pour ajouter un petite notion de sécurité j'ai opté d'utiliser les filters qui sont déja existes grace à la platforme java EE.
+
+passant maintenant à  la démonstration des différentes fonctionalitées de l'application.
+
+L’objectif de mon projet de fin de cycle était de concevoir et implémenter une application de Web de suivi des diabète, Le point de départ de la réalisation de ce projet était une récolte d’informations nécessaires pour dresser un état de l’existant, présenter un aperçu sur la problématique.
+Par la suite, j’ai intéressé à l’analyse et la spécification des besoins qui m’a permis de distinguer les différents acteurs interagissant avec l’application visée.
+L’objectif de la partie suivante était la conception détaillée, dans laquelle j’ai fixé la structure globale de l’application.
+Le dernier volet de mon projet était la partie réalisation qui a été consacrée à la présentation des outils du travail et les interfaces graphiques les plus significatives de mon application.
+L’apport de ce travail avait une importance très considérable. En effet, il m’a permis  de suivre une méthodologie de travail bien étudiée, d’approfondir mes connaissances dans le monde de développement des applications spécifiquement en Java EE et en SQl qui ont été intensivement utilisés dans mon application.
+La réalisation d’un tel projet, m’a permis d’apprendre et de toucher du doigt une partie des divers aspects du métier de développeur et de celui du concepteur.
